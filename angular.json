@@ -76,6 +76,7 @@
             "buildTarget": "todo_angular:build"
           }
         },
+            
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
@@ -89,6 +90,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
